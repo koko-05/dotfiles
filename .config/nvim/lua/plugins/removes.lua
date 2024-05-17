@@ -1,6 +1,14 @@
 return {
   { "catppuccin/nvim" },
+  { "cocopon/iceberg.vim" },
+  {
+  "folke/tokyonight.nvim",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+  },
   { "numToStr/FTerm.nvim" },
+  { "ellisonleao/gruvbox.nvim" },
   { "folke/zen-mode.nvim",
     opts= {
       window = {
@@ -29,14 +37,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "gruvbox",
     },
   },
 
   { "folke/trouble.nvim", enabled = false },
-  { "mfussenegger/nvim-lint", enabled = false },
+  { "mfussenegger/nvim-lint", enabled = true },
   { "rcarriga/nvim-notify", enabled = false },
-  { "akinsho/bufferline.nvim", enabled = false },
+  { "akinsho/bufferline.nvim", enabled = true },
   { "folke/noice.nvim", enabled = false },
   { "folke/which-key.nvim", enabled = false },
   { "nvimdev/dashboard-nvim", enabled = false },
@@ -60,6 +68,9 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "cpp",
+        "c",
+        "rust"
       },
     },
   },

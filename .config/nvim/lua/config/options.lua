@@ -6,6 +6,8 @@ vim.cmd("set textwidth=0")
 vim.cmd("set wrapmargin=0")
 vim.cmd("set wrap")
 
+-- this doesnt work, but I'll leave it here for reference whenever
+-- I want to acutally implement it
 vim.g.clipboard = "{\
      'name': 'bufTermux',\
      'copy': {\
