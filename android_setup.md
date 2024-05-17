@@ -7,6 +7,7 @@
 - Chromium (from here: [https://chromium.woolyss.com/])
 - Blueline console
 - Spotify
+- Use gray-scale (TODO: with shortcut to disable on Termux)
 
 **Dev**:
 - Termux
