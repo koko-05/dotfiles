@@ -6,4 +6,6 @@ vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>")
 vim.keymap.set("n", "<C-o>", ":Telescope find_files<CR>")
 vim.keymap.set('n', '<C-p>', '<CMD>lua require("FTerm").toggle()<CR>')
 vim.keymap.set('n', '<C-z>', ':ZenMode<CR>')
+vim.keymap.set('n', '<C-i>', ':BufferLineCycleNext<CR>')
+vim.keymap.set('n', '<C-w>', ':BufferLineCloseRight<CR>')
 

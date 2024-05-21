@@ -3,11 +3,11 @@
 ## Applications
 **Workflow**:
 - KeyMapper (backup in keymapper_mappings.zip)
-- Neolauncher (backup in neolauncher_backup.zbk) 
+- AnyLauncher set to Termux (you can get it on github) 
 - Chromium (from here: [https://chromium.woolyss.com/])
 - Blueline console
 - Spotify
-- Use gray-scale (TODO: with shortcut to disable on Termux)
+- Switch the ctrl and caps keys
 
 **Dev**:
 - Termux
@@ -21,6 +21,9 @@
 - rust
 - git
 - etc.
+- tmux
+- zsh
+- fzf
 - TODO: guide for hardware acceleration
 
 **App store**:
