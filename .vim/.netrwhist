@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/koko/.wine/drive_c/users/koko'
+let g:netrw_dirhist_1='/home/koko/.wine/drive_c/users/koko/AppData'
+let g:netrw_dirhist_0='/home/koko/.wine/drive_c/users/koko'
+let g:netrw_dirhist_9='/home/koko/.wine/drive_c/users'
+let g:netrw_dirhist_8='/home/koko/.wine/drive_c'
+let g:netrw_dirhist_7='/home/koko/.wine/drive_c/Program Files'
+let g:netrw_dirhist_6='/home/koko/.wine/drive_c/Program Files/LTC'
+let g:netrw_dirhist_5='/home/koko/.wine/drive_c/Program Files/LTC/LTspiceXVII'
+let g:netrw_dirhist_4='/home/koko/.wine/drive_c/Program Files/LTC'
+let g:netrw_dirhist_3='/home/koko/.wine/drive_c/Program Files'

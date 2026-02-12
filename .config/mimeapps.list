@@ -1,0 +1,11 @@
+[Default Applications]
+application/x-7z-compressed=thunar.desktop
+video/mp4=userapp-plughw:CARD=Headset,DEV=0'-8YAAK3.desktop
+video/x-matroska=userapp-plughw:CARD=Headset,DEV=0'-8YAAK3.desktop
+video/webm=userapp-plughw:CARD=Headset,DEV=0'-8YAAK3.desktop
+
+[Added Associations]
+application/x-7z-compressed=thunar.desktop;
+video/mp4=userapp-plughw:CARD=Headset,DEV=0'-8YAAK3.desktop;
+video/x-matroska=userapp-plughw:CARD=Headset,DEV=0'-8YAAK3.desktop;
+video/webm=userapp-plughw:CARD=Headset,DEV=0'-8YAAK3.desktop;
