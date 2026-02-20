@@ -21,26 +21,27 @@ sudo apt-get install -y \
 sudo apt-get install -y \
     ani-cli \
     network-manager \
-    feh \           # img viewer
-    imagemagick \   # image tools
+    feh \
+    imagemagick \
     brightnessctl \
     redshift \
+    xinput \
+    x11* \
     alsa*
     
 # graphics related
 sudo apt-get install -y \
-    mesa-vulkan-drivers \ # just in case...
+    mesa-vulkan-drivers \
     xcompmgr # compositor
 
 # common programs
 sudo apt-get install -y \
-    firefox-esr \   # browser
-    thunar \        # file explorer
-    font-manager \  # easily manage fonts
-    mpv \           # video view
-    steam \         # video games
-    gparted \       # easy partitioning
-    wine            # windows compat
+    firefox-esr \
+    thunar \
+    font-manager \
+    mpv \
+    gparted \
+    wine
     
 # kitty (terminal)
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
